@@ -255,7 +255,15 @@ div.logo-site-name strong {}
 
 /* Logo and Site Name SPAN wrappers. */
 span#logo {}
-span#site-name {}
+span#site-name,
+.pane-page-site-name .pane-content {
+  color: #2205C4;
+  font-family: cursive;
+  font-size: 2.75em;
+  font-weight: bold;
+  text-align: right;
+  text-transform: capitalize;
+}
 
 /* Override default pseudo class styles. */
 #site-name a:link    {}
@@ -440,9 +448,12 @@ span.search-info-upload  {}
  *                       Mission
  **********************************************************/
 #mission {}
-
+#mission,
 .pane-page-mission {
-  background:#efeffb;
+  background: #EFEFFB;
+  font-family: georgia;
+  font-size: 1.15em;
+  line-height: 167%;
   padding: 10px;
 }
 
@@ -1125,9 +1136,29 @@ tr:first-child td.container {}
  *                   Panels & views
  **********************************************************/
 
+.panels-flexible-region-inside {
+  padding:0;
+}
+
 .pane-views .field .item .imagecache img {
   float:left;
   padding:0 10px 10px 0;
+}
+
+.panels-flexible-region-3_2_1_4_brochure_basic-top_right {
+  width: 330px;
+}
+
+.panels-flexible-region-3_2_1_4_brochure_basic-header {
+  width: 690px;
+}
+
+.panels-flexible-region-3_2_1_4_brochure_basic-logo {
+  width: 330px;
+}
+
+.panels-flexible-region-3_2_1_4_brochure_basic-main_left {
+  width: 690px;
 }
 
 table.views-view-grid {
