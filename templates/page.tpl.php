@@ -96,7 +96,25 @@
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>">
+  <div id="utils">
+    <?php if (!empty($admin_user_links)): ?>
+      <div id="user-menu" class="clearfix">
+        <h2 class="element-invisible"><?php print t('User menu'); ?></h2>
+        <?php print $admin_user_links; ?>
+      </div> <!-- /admin user link -->
+    <?php endif; ?>
+
+    <?php if ($breadcrumb): ?>
+      <div id="breadcrumb">
+        <h2 class="element-invisible"><?php print t('You are here:'); ?></h2>
+        <?php print $breadcrumb; ?>
+      </div> <!-- /breadcrumb -->
+    <?php endif; ?>
+  </div>
+
   <div id="container">
+
+  <div id ="container-inner">
 
     <div id="skip-nav" class="<?php print $skip_nav_class; ?>">
       <!-- To adjust the display of the skip link see the Advanced theme settings (General settings), and never use display:none! -->
@@ -105,13 +123,6 @@
 
     <?php // Add support for Admin module header, http://drupal.org/project/admin. ?>
     <?php if (!empty($admin)) print $admin; ?>
-
-    <?php if (!empty($admin_user_links)): ?>
-      <div id="user-menu" class="clearfix">
-        <h2 class="element-invisible"><?php print t('User menu'); ?></h2>
-        <?php print $admin_user_links; ?>
-      </div> <!-- /admin user link -->
-    <?php endif; ?>
 
     <?php if ($leaderboard): ?>
       <div id="leaderboard"><?php print $leaderboard; ?></div> <!-- /leaderboard -->
@@ -170,13 +181,6 @@
         <h2 class="element-invisible"><?php print t('Secondary Menu'); ?></h2>
         <?php print $secondary_menu; ?>
       </div> <!-- /secondary link menu -->
-    <?php endif; ?>
-
-    <?php if ($breadcrumb): ?>
-      <div id="breadcrumb">
-        <h2 class="element-invisible"><?php print t('You are here:'); ?></h2>
-        <?php print $breadcrumb; ?>
-      </div> <!-- /breadcrumb -->
     <?php endif; ?>
 
     <?php if ($messages or $help): ?>
@@ -260,9 +264,12 @@
       </div> <!-- /footer -->
     <?php endif; ?>
 */ ?>
+  </div> <!-- /container-inner -->
   </div> <!-- /container -->
 
   <?php print $closure ?>
+
+
 
 </body>
 </html>

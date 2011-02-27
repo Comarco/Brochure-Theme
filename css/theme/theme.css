@@ -14,8 +14,15 @@ html {}
 body {}
 
 /* Admin menu */
-body.admin-menu {}
-body.admin-menu #container {}
+body.admin-menu {
+}
+body.admin-menu #container,
+body.logged-in #container {
+  margin-top:4.2em;
+}
+body.not-logged-in #container {
+  margin-top: 2.25em;
+}
 
 /**********************************************************
  *                 HTML Elements
@@ -99,58 +106,89 @@ a:focus {}
 .article-type-poll  {}
 .article-type-story {}
 
-	
+  
 /**********************************************************
  *                  The wrapper divs
  *    Be careful how you modify these, see layout.css
  **********************************************************/
-#container {}
+#container {
+background-color:#eeefff;
+}
+
+#container-inner {}
 
 /* Column wrappers */
-#columns {}
+
+#columns {
+
+}
 .columns-inner {}
 
 /* Content wrappers */
-#content-column {}
+#content-column {
+background-color:#dcdcdc;
+}
 .content-inner {}
 
 /* Main content wrappers*/
-#main-content {}
-#content {}
+#main-content {
+background-color:#cacdad;
+}
+#content {
+background-color:#c3cd3d;
+}
 
 
 /**********************************************************
  *                       Regions
  **********************************************************/
 /* Leaderboard is a full width region at the very top of the page. */
-#leaderboard {}
+#leaderboard {
+background-color:#accadd;
+}
 
 /* Header region is embedded in the header, floated between the logo/site_name
    and the search box. */
-#header-region {}
+#header-region {
+background-color:#ccedde;
+}
 
 /* Menu Bar sits below the header and is ideal for dynamic menus 
    such as http://drupal.org/project/superfish. */
-#menu-bar {}
+#menu-bar {
+background-color:#cbbdbb;
+}
 
 /* Secondary content is a full width region between the header and the
    main columns. */
-#secondary-content {}
+#secondary-content {
+background-color:#cb2db2;
+}
 
 /* Tertiary content is a full width region above the footer, below the
    main content. */
-#tertiary-content {}
+#tertiary-content {
+background-color:#3e23e2;
+}
 
 /* Content top and bottom are above and below the main content, within the main 
    content column. Content aside floats to the right within the main central
    column, but below content top. */
-#content-top {}
-#content-aside {}
-#content-bottom {}
+#content-top {
+background-color:#ededed;
+}
+#content-aside {
+background-color:#afafaf;
+}
+#content-bottom {
+background-color:#fe5fe5;
+}
 
 /* Article aside appears only in articles (nodes). By default its placed at
    the bottom of the node.tpl.php template. */
-#article-aside {}
+#article-aside {
+background-color:#edaeda;
+}
 
 
 /**********************************************************
@@ -363,6 +401,28 @@ span.search-info-upload  {}
 #breadcrumb a:focus {}
 #breadcrumb a:active {}
 
+#breadcrumb,
+#user-menu {
+  position:absolute;
+  padding: 4px 10px 5px;
+  position: absolute;
+  top: 1.95em;
+  background-color:#c3c3ee;
+  width:50%;
+}
+
+.not-logged-in #breadcrumb {
+  width:100%;
+  top:0;
+}
+
+#user-menu {
+  right:0;
+  float:none;
+}
+
+#utils {
+}
 
 /**********************************************************
  *                       Mission
@@ -1024,4 +1084,5 @@ tr:first-child td.container {}
   padding:0;
   margin:0;
 }
+
 

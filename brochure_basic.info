@@ -28,7 +28,9 @@
 
   ; Starter CSS - comment this out if you dont need it, provides basic styles only.
   stylesheets[all][] = css/theme/starter.css
-	
+
+  stylesheets[all][] = css/theme/base.css
+
   ; Theme CSS - use this stylesheet to build your custom theme.
   stylesheets[all][] = css/theme/theme.css
   
