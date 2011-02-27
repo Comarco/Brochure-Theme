@@ -146,15 +146,15 @@ padding:0;
 }
 
 h3 {
-font-size:1.25em;
+font-size:1.19em;
 }
 
 h4 {
-font-size:1.17em;
+font-size:1.13em;
 }
 
 h5,h6 {
-font-size:1em;
+font-size:1.08em;
 }
 
 a img {
@@ -725,18 +725,18 @@ margin-bottom:1em;
 ul.primary {
 border-bottom-color:#CCC;
 margin:1.5em 0 0;
-padding:0 0 .2em .3em;
+padding:0 0 .5em .3em;
 }
 
 ul.primary li a {
-background-color:#F5F5F5;
+background-color:#ececcf;
 margin-right:.08em;
 border-color:#CCC;
-padding:.1em .75em .2em;
+padding:6px 10px 6px;
 }
 
 .local-tasks ul.primary li a:hover {
-background-color:#F7F7F7;
+background-color:#fdfddf;
 border-color:#DDD;
 }
 
@@ -983,7 +983,7 @@ clear:both;
 }
 
 h2,input.title {
-font-size:1.5em;
+font-size:1.25em;
 }
 
 h1,h2,h3,h4,h5,h6,h1 img,h2 img,h3 img,h4 img,h5 img,h6 img,em,dfn,del,ins,a,tbody,tfoot,thead,tr,li,label,legend,#user-login-form ul,.fieldset-layout-settings .layout-help dt,.fieldset-layout-settings .layout-help dd,.at-inline-menu ul.menu,.at-multicolumn-menu .block-content ul {

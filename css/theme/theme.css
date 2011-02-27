@@ -11,14 +11,15 @@
  *                    HTML & Body
  **********************************************************/
 html {}
-body {}
+body {
+/*  background:#efefef;*/
+}
 
 /* Admin menu */
 body.admin-menu {
 }
 body.admin-menu #container,
 body.logged-in #container {
-  margin-top:4.2em;
 }
 body.not-logged-in #container {
   margin-top: 2.25em;
@@ -73,10 +74,18 @@ var {}
  *                 Global Link Styles
  **********************************************************/
 a {}
-a:link    {}
-a:visited {}
-a:hover   {}
-a:active  {}
+a:link    {
+  color: #886600;
+}
+a:visited {
+  color: #bbaa55;
+}
+a:hover   {
+  color: #553300;
+}
+a:active  {
+  color: #850000;
+}
 a.active  {}
 
 /* Set global a:active and a:focus styles. */
@@ -112,7 +121,7 @@ a:focus {}
  *    Be careful how you modify these, see layout.css
  **********************************************************/
 #container {
-background-color:#eeefff;
+  background-color:#fff;
 }
 
 #container-inner {}
@@ -126,16 +135,16 @@ background-color:#eeefff;
 
 /* Content wrappers */
 #content-column {
-background-color:#dcdcdc;
+/*background-color:#dcdcdc;*/
 }
 .content-inner {}
 
 /* Main content wrappers*/
 #main-content {
-background-color:#cacdad;
+/*background-color:#cacdad;*/
 }
 #content {
-background-color:#c3cd3d;
+/*background-color:#c3cd3d;*/
 }
 
 
@@ -144,50 +153,50 @@ background-color:#c3cd3d;
  **********************************************************/
 /* Leaderboard is a full width region at the very top of the page. */
 #leaderboard {
-background-color:#accadd;
+/*background-color:#accadd;*/
 }
 
 /* Header region is embedded in the header, floated between the logo/site_name
    and the search box. */
 #header-region {
-background-color:#ccedde;
+/*background-color:#ccedde;*/
 }
 
 /* Menu Bar sits below the header and is ideal for dynamic menus 
    such as http://drupal.org/project/superfish. */
 #menu-bar {
-background-color:#cbbdbb;
+/*background-color:#cbbdbb;*/
 }
 
 /* Secondary content is a full width region between the header and the
    main columns. */
 #secondary-content {
-background-color:#cb2db2;
+/*background-color:#cb2db2;*/
 }
 
 /* Tertiary content is a full width region above the footer, below the
    main content. */
 #tertiary-content {
-background-color:#3e23e2;
+/*background-color:#3e23e2;*/
 }
 
 /* Content top and bottom are above and below the main content, within the main 
    content column. Content aside floats to the right within the main central
    column, but below content top. */
 #content-top {
-background-color:#ededed;
+/*background-color:#ededed;*/
 }
 #content-aside {
-background-color:#afafaf;
+/*background-color:#afafaf;*/
 }
 #content-bottom {
-background-color:#fe5fe5;
+/*background-color:#fe5fe5;*/
 }
 
 /* Article aside appears only in articles (nodes). By default its placed at
    the bottom of the node.tpl.php template. */
 #article-aside {
-background-color:#edaeda;
+/*background-color:#edaeda;*/
 }
 
 
@@ -403,12 +412,10 @@ span.search-info-upload  {}
 
 #breadcrumb,
 #user-menu {
-  position:absolute;
-  padding: 4px 10px 5px;
-  position: absolute;
+ /* padding: 4px 10px 5px;*/
   top: 1.95em;
-  background-color:#c3c3ee;
   width:50%;
+  display:inline;
 }
 
 .not-logged-in #breadcrumb {
@@ -416,12 +423,17 @@ span.search-info-upload  {}
   top:0;
 }
 
-#user-menu {
-  right:0;
-  float:none;
+.front #user-menu {
+  width:100%;
+  background-color:#ececcf;
 }
 
+#user-menu {
+/*  float:right;*/
+}
 #utils {
+  background-color:#ececcf;
+  padding: 4px 10px 5px;
 }
 
 /**********************************************************
@@ -429,6 +441,10 @@ span.search-info-upload  {}
  **********************************************************/
 #mission {}
 
+.pane-page-mission {
+  background:#efeffb;
+  padding: 10px;
+}
 
 /**********************************************************
  *                    H1 Page Title
@@ -483,14 +499,34 @@ ul.pager li.pager-last     {}
 /**********************************************************
  *                  Generic Content Classes
  **********************************************************/
-.title {}
-.submitted {}
-.submitted em {}
-.submitted a {}
+.title {
+  line-height: 125%;
+}
+.meta {
+  margin: .3em 0 .5em;
+}
+.submitted {
+  color: #ACAC33;
+  font-style: italic;
+}
+.submitted em {
+  text-decoration:underline;
+}
+.submitted a {
+  text-decoration:underline;
+  color:#444;
+}
 .content {}
-ul.links {}
-ul.links li {}
-ul.links li a {}
+ul.links {
+}
+.node ul.links li {
+  padding:0;
+}
+.node ul.links li a {
+  text-decoration:none;
+  padding:3px 10px;
+  background-color:#efefcf;
+}
 
 
 /**********************************************************
@@ -1084,5 +1120,46 @@ tr:first-child td.container {}
   padding:0;
   margin:0;
 }
+
+/**********************************************************
+ *                   Panels & views
+ **********************************************************/
+
+.pane-views .field .item .imagecache img {
+  float:left;
+  padding:0 10px 10px 0;
+}
+
+table.views-view-grid {
+  
+}
+
+table.views-view-grid tr {
+  
+}
+
+table.views-view-grid td {
+  border: medium none;
+  padding: 0;
+}
+
+table.views-view-grid td h2 {
+  height: 2.8em;
+}
+/*** 3 col grid ***/
+
+table.views-view-grid td.col-1 {
+  padding-right:15px;
+  width:33%;
+}
+table.views-view-grid td.col-2 {
+  width:33%;
+}
+table.views-view-grid td.col-3 {
+  padding-left:15px;
+  width:33%;
+}
+
+
 
 
