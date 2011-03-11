@@ -160,6 +160,8 @@ a:focus {}
    and the search box. */
 #header-region {
 /*background-color:#ccedde;*/
+  float:right;
+  width:60%;
 }
 
 /* Menu Bar sits below the header and is ideal for dynamic menus 
@@ -234,7 +236,9 @@ a:focus {}
 #header {}
 
 /* #branding wraps #logo, #site-name and #site-slogan. */
-#branding {}
+#branding {
+  width:auto;
+}
 
 /* Logo and Site Name wrapper. */
 .logo-site-name {}
@@ -258,8 +262,8 @@ span#logo {}
 span#site-name,
 .pane-page-site-name .pane-content {
   color: #2205C4;
-  font-family: cursive;
-  font-size: 2.75em;
+/*  font-family: cursive;
+  font-size: 2.75em;*/
   font-weight: bold;
   text-align: right;
   text-transform: capitalize;
@@ -420,29 +424,56 @@ span.search-info-upload  {}
 
 #breadcrumb,
 #user-menu {
- /* padding: 4px 10px 5px;*/
-  top: 1.95em;
-  width:50%;
-  display:inline;
+  height:1.6em;
+/*  width:100%;*/
+  display:block;
 }
-
+#breadcrumb,
+#user-menu {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.09, #ECECCF),
+    color-stop(0.55, #EBEAC8),
+    color-stop(0.78, #E5E6BB)
+);
+  background-image: -moz-linear-gradient(
+    center bottom,
+    #ECECCF 9%,
+    #EBEAC8 55%,
+    #E5E6BB 78%
+);
+}
+#breadcrumb a,
+#user-menu li {
+}
+#user-menu .item-list ul {
+  padding-right:10px;
+}
+#breadcrumb {
+  padding-left:10px;
+}
 .not-logged-in #breadcrumb {
-  width:100%;
   top:0;
 }
 
 .front #user-menu {
-  width:100%;
-  background-color:#ececcf;
+}
+
+.not-front #user-menu,
+.not-front #breadcrumb {
 }
 
 #user-menu {
-/*  float:right;*/
+  float:none;
+  width:100%;
 }
-#utils {
+
+/*#utils {
   background-color:#ececcf;
   padding: 4px 10px 5px;
-}
+}*/
 
 /**********************************************************
  *                       Mission
@@ -1191,6 +1222,76 @@ table.views-view-grid td.col-3 {
   width:33%;
 }
 
+/***************** Block superfish ***************************
+*************** Defaults & Primarylinks **********************/
+
+.sf-menu.sf-style-white a {
+    border:none;
+    border-right:1px solid #ececcf;
+    padding:4em 2em 1em;
+    font-weight:bold;
+    color:#c60000;
+}
+.sf-navbar.sf-style-white a {
+    border: 0 none;
+}
+.sf-menu.sf-style-white li, .sf-navbar.sf-style-white {
+    background: transparent;
+    margin:0;
+}
+.sf-menu.sf-style-white li li {
+    background: none repeat scroll 0 0 #F7F7F7;
+}
+.sf-menu.sf-style-white li li li {
+    background: none repeat scroll 0 0 #F5F5F5;
+}
+.sf-menu.sf-style-white li:hover, .sf-menu.sf-style-white li.sfHover, .sf-menu.sf-style-white li.active a, .sf-menu.sf-style-white a:focus, .sf-menu.sf-style-white a:hover, .sf-menu.sf-style-white a:active, .sf-navbar.sf-style-white li li {
+    background: none repeat scroll 0 0 #E9E9E9;
+}
+.sf-navbar.sf-style-white li ul {
+    background-color: #E9E9E9;
+    width: 100%;
+}
+.sf-navbar.sf-style-white li ul li ul {
+    background-color: transparent;
+}
+.sf-menu.sf-style-white .sf-sub-indicator {
+    background-image: url("../../images/arrows-777777.png");
+}
+.sf-menu.rtl.sf-style-white .sf-sub-indicator {
+    background-image: url("../../images/arrows-777777-rtl.png");
+}
 
 
+#header-region ul.sf-menu {
+  float:right;
+}
+#block-superfish-1 {}
 
+/*****************  Slideshow on front page ******************/
+.pane-kt-stories-list .view {
+  position:relative;
+}
+.pane-kt-stories-list .views-field-title,
+.pane-kt-stories-list .views-field-edit-node,
+.pane-kt-stories-list .views-field-delete-node,
+.pane-kt-stories-list .views-field-body,
+.pane-kt-stories-list .views-slideshow-controls-bottom.clear-block,
+.pane-kt-stories-list .views_slideshow_thumbnailhover_breakout_teasers.clear-block {
+  float:right;
+  width:325px;
+}
+#views_slideshow_thumbnailhover_main_kt_stories_list-block_2 {
+}
+.pane-kt-stories-list .views-field-field-kt-teaser-img-fid img {
+  float:left;
+}
+.pane-kt-stories-list .views-slideshow-controls-bottom {
+  position:absolute;
+  top:75%;
+  right:0;
+}
+
+.pane-kt-stories-list .views_slideshow_thumbnailhover_breakout_teasers img {
+  display:inline;
+}

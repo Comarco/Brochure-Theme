@@ -96,7 +96,6 @@
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>">
-  <div id="utils">
     <?php if (!empty($admin_user_links)): ?>
       <div id="user-menu" class="clearfix">
         <h2 class="element-invisible"><?php print t('User menu'); ?></h2>
@@ -110,7 +109,6 @@
         <?php print $breadcrumb; ?>
       </div> <!-- /breadcrumb -->
     <?php endif; ?>
-  </div>
 
   <div id="container">
 
@@ -127,7 +125,6 @@
     <?php if ($leaderboard): ?>
       <div id="leaderboard"><?php print $leaderboard; ?></div> <!-- /leaderboard -->
     <?php endif; ?>
-<?php /*
     <div id="header" class="clearfix">
       <?php if ($linked_site_logo or $linked_site_name or $site_slogan): ?>
         <div id="branding">
@@ -138,7 +135,7 @@
                 <?php if ($linked_site_logo): ?><span id="logo"><?php print $linked_site_logo; ?></span><?php endif; ?>
                 <?php if ($linked_site_name): ?><span id="site-name"><?php print $linked_site_name; ?></span><?php endif; ?>
               </strong></div> <!-- /logo/site name -->
-            <?php else: /* Use h1 when the content title is empty *//* ?>
+            <?php else: /* Use h1 when the content title is empty */ ?>
               <h1 class="logo-site-name">
                 <?php if ($linked_site_logo): ?><span id="logo"><?php print $linked_site_logo; ?></span><?php endif; ?>
                 <?php if ($linked_site_name): ?><span id="site-name"><?php print $linked_site_name; ?></span><?php endif; ?>
@@ -162,7 +159,7 @@
       <?php endif; ?>
 
     </div> <!-- /header -->
-*/ ?>
+
     <?php if (!empty($menu_bar)): ?>
       <div id="menu-bar">
         <?php print $menu_bar; ?>
@@ -245,7 +242,6 @@
     <?php if ($tertiary_content): ?>
       <div id="tertiary-content"><?php print $tertiary_content; ?></div> <!-- /tertiary-content -->
     <?php endif; ?>
-<?php /*
     <?php if ($footer or $footer_message or $feed_icons): ?>
       <div id="footer">
 
@@ -263,7 +259,6 @@
 
       </div> <!-- /footer -->
     <?php endif; ?>
-*/ ?>
   </div> <!-- /container-inner -->
   </div> <!-- /container -->
 
