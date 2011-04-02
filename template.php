@@ -97,3 +97,17 @@ function adaptivetheme_subtheme_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 */
+
+/**
+ *   http://drupal.org/node/739128
+ *   Use bueditor to edit panel custom content
+*/
+<?php
+if (arg(0) == 'node' && arg(2) == 'panel_content' && module_exists('bueditor')) {
+  $bue_id = 1;//your editor's id
+  bueditor_settle($bue_id);
+  $bue_setting['BUE']['preset']['edit-body'] = "e$bue_id";
+  drupal_add_js($bue_setting, 'setting');
+  drupal_set_html_head('<style type="text/css">.bue-popup{z-index: 1001 !important}</style>');
+}
+?>
