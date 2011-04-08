@@ -96,12 +96,6 @@
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $classes; ?>">
-    <?php if (!empty($admin_user_links)): ?>
-      <div id="user-menu" class="clearfix">
-        <h2 class="element-invisible"><?php print t('User menu'); ?></h2>
-        <?php print $admin_user_links; ?>
-      </div> <!-- /admin user link -->
-    <?php endif; ?>
 
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb">

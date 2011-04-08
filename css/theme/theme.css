@@ -13,6 +13,7 @@
 html {}
 body {
 /*  background:#efefef;*/
+  color:#585858;
 }
 
 /* Admin menu */
@@ -34,6 +35,21 @@ h3 {}
 h4 {}
 h5 {}
 h6 {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h6 a:link {
+  color:#16294a;
+}
 
 p {}
 
@@ -73,18 +89,20 @@ var {}
 /**********************************************************
  *                 Global Link Styles
  **********************************************************/
-a {}
+a {
+  text-decoration:none;
+}
 a:link    {
-  color: #886600;
+  color: #e44e35;
 }
 a:visited {
-  color: #bbaa55;
+  color: #f37c68;
 }
 a:hover   {
-  color: #553300;
+  color: #cd4a36;
 }
 a:active  {
-  color: #850000;
+  color: #cd4a36;
 }
 a.active  {}
 
@@ -233,7 +251,10 @@ a:focus {}
  *                 Header Elements
  **********************************************************/
 /* #header wraps #branding, #search-box-top and #header-blocks. */
-#header {}
+#header {
+  border-bottom: 4px double #c5d7ef;
+  margin-bottom: 1em;
+}
 
 /* #branding wraps #logo, #site-name and #site-slogan. */
 #branding {
@@ -430,7 +451,7 @@ span.search-info-upload  {}
 }
 #breadcrumb,
 #user-menu {
-  background-image: -webkit-gradient(
+/*  background-image: -webkit-gradient(
     linear,
     left bottom,
     left top,
@@ -443,7 +464,8 @@ span.search-info-upload  {}
     #ECECCF 9%,
     #EBEAC8 55%,
     #E5E6BB 78%
-);
+);*/
+  background-color:#c5d7ef;
 }
 #breadcrumb a,
 #user-menu li {
@@ -491,7 +513,9 @@ span.search-info-upload  {}
 /**********************************************************
  *                    H1 Page Title
  **********************************************************/
-h1#page-title {}
+h1#page-title {
+  font-weight: normal;
+}
 
 
 /**********************************************************
@@ -548,7 +572,6 @@ ul.pager li.pager-last     {}
   margin: .3em 0 .5em;
 }
 .submitted {
-  color: #ACAC33;
   font-style: italic;
 }
 .submitted em {
@@ -1227,10 +1250,10 @@ table.views-view-grid td.col-3 {
 
 .sf-menu.sf-style-white a {
     border:none;
-    border-right:1px solid #ececcf;
-    padding:4em 2em 1em;
+    border-right:1px dotted #d2d4e1;
+    padding:4.35em 2em 1em;
     font-weight:bold;
-    color:#c60000;
+    color:#e44e35 !important;
 }
 .sf-navbar.sf-style-white a {
     border: 0 none;
@@ -1245,8 +1268,21 @@ table.views-view-grid td.col-3 {
 .sf-menu.sf-style-white li li li {
     background: none repeat scroll 0 0 #F5F5F5;
 }
-.sf-menu.sf-style-white li:hover, .sf-menu.sf-style-white li.sfHover, .sf-menu.sf-style-white li.active a, .sf-menu.sf-style-white a:focus, .sf-menu.sf-style-white a:hover, .sf-menu.sf-style-white a:active, .sf-navbar.sf-style-white li li {
-    background: none repeat scroll 0 0 #E9E9E9;
+.sf-menu.sf-style-white li:hover, .sf-menu.sf-style-white li.sfHover, .sf-menu.sf-style-white li.active a, .sf-menu.sf-style-white li.active-trail a, .sf-menu.sf-style-white a:focus, .sf-menu.sf-style-white a:hover, .sf-menu.sf-style-white a:active, .sf-navbar.sf-style-white li li {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.0, #cd4a36),
+    color-stop(0.100, #e44e35)
+);
+  background-image: -moz-linear-gradient(
+    center bottom,
+    #cd4a36 0%,
+    #e44e35 100%
+);
+  color:#fff !important;
+  background: none repeat scroll 0 0 #e44e35;
 }
 .sf-navbar.sf-style-white li ul {
     background-color: #E9E9E9;
