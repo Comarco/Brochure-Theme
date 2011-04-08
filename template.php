@@ -102,7 +102,6 @@ function adaptivetheme_subtheme_preprocess_block(&$vars, $hook) {
  *   http://drupal.org/node/739128
  *   Use bueditor to edit panel custom content
 */
-<?php
 if (arg(0) == 'node' && arg(2) == 'panel_content' && module_exists('bueditor')) {
   $bue_id = 1;//your editor's id
   bueditor_settle($bue_id);
