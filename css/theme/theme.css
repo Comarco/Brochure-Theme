@@ -1367,11 +1367,16 @@ table.views-view-grid td.col-3 {
   border:none;
 }
 
-.kt-slideshow.kt-big-sl .more-link {
+/****** more & feed-icon  *******/
+
+.more-link {
   margin-top:1em;
+  margin-bottom:2em;
+  float:right;
 }
 .feed-icon {
   float:right;
+  margin-bottom:2em;
   margin-top:.5em;
 }
 
@@ -1398,4 +1403,12 @@ table.views-view-grid td.col-3 {
 }
 .section-node .article .filefield .filefield-file img {
   margin-right:5px;
+}
+
+/******* Gallery row on front page ******/
+
+.front .pane-galleries .field-kt-teaser-img-fid img {
+  margin:1.5em 0 1.5em;
+}
+.front .pane-galleries .field-kt-gallery-desc-value {
 }
