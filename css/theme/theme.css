@@ -14,6 +14,7 @@ html {}
 body {
 /*  background:#efefef;*/
   color:#585858;
+  border-top:15px solid #c5d7ef;
 }
 
 /* Admin menu */
@@ -23,7 +24,7 @@ body.admin-menu #container,
 body.logged-in #container {
 }
 body.not-logged-in #container {
-  margin-top: 2.25em;
+/*  margin-top: 2.25em;*/
 }
 
 /**********************************************************
@@ -253,7 +254,7 @@ a:focus {}
 /* #header wraps #branding, #search-box-top and #header-blocks. */
 #header {
   border-bottom: 4px double #c5d7ef;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 /* #branding wraps #logo, #site-name and #site-slogan. */
@@ -1307,6 +1308,12 @@ table.views-view-grid td.col-3 {
 /*****************  Slideshow on front page ******************/
 .pane-kt-stories-list .view {
   position:relative;
+  background:#fafbff;
+  border:1px solid #c5d7ef;
+  width:1198px;
+}
+.pane-kt-stories-list .views-field-title {
+  padding-top:3em;
 }
 .pane-kt-stories-list .views-field-title,
 .pane-kt-stories-list .views-field-edit-node,
@@ -1315,19 +1322,30 @@ table.views-view-grid td.col-3 {
 .pane-kt-stories-list .views-slideshow-controls-bottom.clear-block,
 .pane-kt-stories-list .views_slideshow_thumbnailhover_breakout_teasers.clear-block {
   float:right;
-  width:325px;
+  width:340px;
+  margin-right:1.5em
 }
 #views_slideshow_thumbnailhover_main_kt_stories_list-block_2 {
 }
 .pane-kt-stories-list .views-field-field-kt-teaser-img-fid img {
   float:left;
+  border-right:1px solid #c5d7ef;
 }
 .pane-kt-stories-list .views-slideshow-controls-bottom {
   position:absolute;
   top:75%;
   right:0;
 }
-
+.pane-kt-stories-list .views_slideshow_thumbnailhover_breakout_teasers {
+  position:absolute;
+  bottom:3em;
+  right:0;
+}
 .pane-kt-stories-list .views_slideshow_thumbnailhover_breakout_teasers img {
   display:inline;
+}
+
+.pane-kt-stories-list .feed-icon {
+  float:right;
+  margin-top:.5em;
 }

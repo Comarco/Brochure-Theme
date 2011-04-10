@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.1767767"
-     inkscape:cx="2084.983"
-     inkscape:cy="2037.4293"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="2214.1685"
+     inkscape:cy="1646.3688"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -291,7 +291,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,947.63782)"
-     style="display:inline">
+     style="display:none">
     <rect
        style="fill:#34c53c;fill-opacity:0.55395681;display:inline"
        id="rect3676"
@@ -336,7 +336,10 @@
        width="110.94727"
        height="221.82716"
        x="2189.7207"
-       y="-539.36346" />
+       y="-539.36346"
+       inkscape:export-filename="/home/marco/job/Brochure-Theme/images/design-by-heidi/fold.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:groupmode="layer"
