@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
-   sodipodi:docname="Nouveau document 1">
+   sodipodi:docname="dessin.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="1295.9663"
-     inkscape:cy="813.56931"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="2084.983"
+     inkscape:cy="2037.4293"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -134,6 +134,10 @@
        orientation="1,0"
        position="1069.9961,1911.0977"
        id="guide4466" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="2300.668,1370.4102"
+       id="guide4838" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -164,7 +168,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="page gallery node"
-     style="display:none">
+     style="display:inline">
     <image
        y="0"
        x="0"
@@ -229,7 +233,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="page news node"
-     style="display:none">
+     style="display:inline">
     <image
        y="0"
        x="0"
@@ -263,6 +267,24 @@
        xlink:href="file:///home/marco/job/Brochure-Theme/images/design-by-heidi/brochure-front.jpg"
        height="2250"
        width="1920" />
+    <path
+       transform="translate(4.1845703e-5,-1.1474609e-5)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#0051ff;stroke-opacity:1;display:inline"
+       id="path4819"
+       sodipodi:cx="2380.7896"
+       sodipodi:cy="532.9342"
+       sodipodi:rx="303.62869"
+       sodipodi:ry="303.62869"
+       d="m 2684.4182,532.9342 a 303.62869,303.62869 0 1 1 -607.2573,0 303.62869,303.62869 0 1 1 607.2573,0 z" />
+    <rect
+       style="fill:#fafbff;fill-opacity:1;stroke:none;display:inline"
+       id="rect4821"
+       width="248.80879"
+       height="248.80879"
+       x="1915.5112"
+       y="-1430.0798"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
   </g>
   <g
      inkscape:label="Calque 1"
@@ -306,13 +328,21 @@
        id="rect4460"
        style="fill:#34c53c;fill-opacity:0.55395681;display:inline"
        inkscape:export-filename="/home/marco/job/Brochure-Theme/logo.png"
-       inkscape:export-xdpi="71"
-       inkscape:export-ydpi="71" />
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#68f368;fill-opacity:0.205036;stroke:none"
+       id="rect4836"
+       width="110.94727"
+       height="221.82716"
+       x="2189.7207"
+       y="-539.36346" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer11"
-     inkscape:label="Mesures">
+     inkscape:label="Mesures"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0086ff;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -445,5 +475,212 @@
          id="tspan4561"
          x="305.40308"
          y="1325.9934">280</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="Couleurs"
+     style="display:inline">
+    <rect
+       style="fill:#e5e8e9;fill-opacity:1;stroke:#0051ff;stroke-width:0.86414766;stroke-opacity:1;display:inline"
+       id="rect4670"
+       width="789.51062"
+       height="849.91077"
+       x="-885.25494"
+       y="0.042745586" />
+    <rect
+       style="fill:#c5d7ef;fill-opacity:1;stroke:none;display:inline"
+       id="rect4672"
+       width="67.882248"
+       height="43.455948"
+       x="-859.84186"
+       y="13.00004" />
+    <rect
+       y="100.14041"
+       x="-859.84186"
+       height="43.455948"
+       width="67.882248"
+       id="rect4674"
+       style="fill:#cd4a36;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#e44e35;fill-opacity:1;stroke:none;display:inline"
+       id="rect4676"
+       width="67.882248"
+       height="43.455948"
+       x="-859.84186"
+       y="187.28082" />
+    <rect
+       y="274.4212"
+       x="-859.84186"
+       height="43.455948"
+       width="67.882248"
+       id="rect4678"
+       style="fill:#ff6b0a;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#e44e35;fill-opacity:1;stroke:none;display:inline"
+       id="rect4680"
+       width="67.882248"
+       height="43.455948"
+       x="-859.84186"
+       y="361.56158" />
+    <rect
+       y="448.70197"
+       x="-859.84186"
+       height="43.455948"
+       width="67.882248"
+       id="rect4682"
+       style="fill:#16294a;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#585858;fill-opacity:1;stroke:none;display:inline"
+       id="rect4684"
+       width="67.882248"
+       height="43.455948"
+       x="-859.84186"
+       y="535.84235" />
+    <rect
+       y="622.98279"
+       x="-859.84186"
+       height="43.455948"
+       width="67.882248"
+       id="rect4686"
+       style="fill:#838383;fill-opacity:1;stroke:none;display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-755.48047"
+       y="51.951267"
+       id="text4751"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4753"
+         x="-755.48047"
+         y="51.951267">#c5d7ef borders, separators</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4755"
+       y="138"
+       x="-755.48047"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="138"
+         x="-755.48047"
+         id="tspan4757"
+         sodipodi:role="line">#cd4a36 borders, separators</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-755.48047"
+       y="231.80287"
+       id="text4759"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4761"
+         x="-755.48047"
+         y="231.80287">#e44e35 links</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4763"
+       y="317.85159"
+       x="-755.48047"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="317.85159"
+         x="-755.48047"
+         id="tspan4765"
+         sodipodi:role="line">#ff6b0a user names</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-755.48047"
+       y="403.90048"
+       id="text4767"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4769"
+         x="-755.48047"
+         y="403.90048">#e44e35 links</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4771"
+       y="482.1954"
+       x="-755.48047"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="482.1954"
+         x="-755.48047"
+         id="tspan4773"
+         sodipodi:role="line">#16294a Headings</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-755.48047"
+       y="575.99817"
+       id="text4775"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4777"
+         x="-755.48047"
+         y="575.99817">#585858 text</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4779"
+       y="662.047"
+       x="-755.48047"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="662.047"
+         x="-755.48047"
+         id="tspan4781"
+         sodipodi:role="line">#838383 footer</tspan></text>
+    <rect
+       style="fill:#d2d4e1;fill-opacity:1;stroke:none;display:inline"
+       id="rect4799"
+       width="67.882248"
+       height="43.455948"
+       x="-859.84186"
+       y="706.98279" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-757.48047"
+       y="746.047"
+       id="text4801"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4803"
+         x="-757.48047"
+         y="746.047">#d2d4e1 main menu border</tspan></text>
+    <rect
+       y="187.28082"
+       x="-427.84186"
+       height="43.455948"
+       width="67.882248"
+       id="rect4809"
+       style="fill:#f37c68;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       style="fill:#f37c68;fill-opacity:1;stroke:none;display:inline"
+       id="rect4811"
+       width="67.882248"
+       height="43.455948"
+       x="-311.84186"
+       y="187.28082" />
+    <rect
+       y="782.98279"
+       x="-859.84186"
+       height="43.455948"
+       width="67.882248"
+       id="rect4813"
+       style="fill:#fafbff;fill-opacity:1;stroke:none;display:inline" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4815"
+       y="822.047"
+       x="-757.48047"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="822.047"
+         x="-757.48047"
+         id="tspan4817"
+         sodipodi:role="line">#fafbff big slideshow sidebar</tspan></text>
   </g>
 </svg>
