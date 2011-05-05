@@ -18,7 +18,7 @@ if (theme_get_setting(cleanup_views_unformatted)) {
   <h3><?php print $title; ?></h3>
 <?php endif; ?>
 <?php foreach ($rows as $id => $row): ?>
-  <div class="views-row-unformatted<?php print $extra_classes ? ' ' . $classes[$id] : ''; ?>">
+  <div class="views-row-unformatted clearfix<?php print $extra_classes ? ' ' . $classes[$id] : ''; ?>">
     <?php print $row; ?>
   </div>
 <?php endforeach; ?> <!-- /views-view-unformatted -->
