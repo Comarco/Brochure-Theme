@@ -271,7 +271,8 @@ h1.logo-site-name  {}
 
 /* Logo and Site Name wrapper DIV - normally applies to all internal pages,
    or where no title is set. */
-div.logo-site-name {}
+div.logo-site-name {
+}
 
 /* DIV/strong combo when when title is set. */
 div.logo-site-name strong {}
@@ -288,10 +289,15 @@ span#site-name,
 /*  font-family: cursive;
   font-size: 2.75em;*/
   font-weight: bold;
-  text-align: right;
   text-transform: capitalize;
+  height: 3.2em;
+  position: relative;
+  width:400px;
 }
-
+span#site-name a {
+  bottom:.25em;
+  position:absolute;
+}
 /* Override default pseudo class styles. */
 #site-name a:link    {}
 #site-name a:visited {}
@@ -819,7 +825,9 @@ ul.links li.comment_delete a {}
 .block {}
 .block-inner   {} /* Block inner div */
 .block-title   {} /* h2 block title */
-
+.block ul {
+  padding:0;
+}
 
 /**********************************************************
  *                   Sidebar blocks
@@ -1253,12 +1261,18 @@ table.views-view-grid td.col-3 {
 /***************** Block superfish ***************************
 *************** Defaults & Primarylinks **********************/
 
-.sf-menu.sf-style-white a {
-    border:none;
+.sf-menu.sf-style-white li {
     border-right:1px dotted #d2d4e1;
-    padding:4.35em 2em 1em;
     font-weight:bold;
+}
+.sf-menu.sf-style-white li a {
+    padding:4.35em 2em 1em;
+    border:none;
     color:#e44e35 !important;
+}
+.sf-menu.sf-style-white li li a,
+.sf-menu.sf-style-white li li.sfHover a {
+    padding:1em 2em;
 }
 .sf-navbar.sf-style-white a {
     border: 0 none;
@@ -1273,7 +1287,14 @@ table.views-view-grid td.col-3 {
 .sf-menu.sf-style-white li li li {
     background: none repeat scroll 0 0 #F5F5F5;
 }
-.sf-menu.sf-style-white li:hover, .sf-menu.sf-style-white li.sfHover, .sf-menu.sf-style-white li.active a, .sf-menu.sf-style-white li.active-trail a, .sf-menu.sf-style-white a:focus, .sf-menu.sf-style-white a:hover, .sf-menu.sf-style-white a:active, .sf-navbar.sf-style-white li li {
+.sf-menu.sf-style-white li:hover,
+.sf-menu.sf-style-white li.sfHover,
+.sf-menu.sf-style-white li.active a,
+.sf-menu.sf-style-white li.active-trail a,
+.sf-menu.sf-style-white a:focus,
+.sf-menu.sf-style-white a:hover,
+.sf-menu.sf-style-white a:active,
+.sf-navbar.sf-style-white li li {
   background-image: -webkit-gradient(
     linear,
     left bottom,
@@ -1289,6 +1310,7 @@ table.views-view-grid td.col-3 {
   color:#fff !important;
   background: none repeat scroll 0 0 #e44e35;
 }
+
 .sf-navbar.sf-style-white li ul {
     background-color: #E9E9E9;
     width: 100%;
@@ -1303,7 +1325,19 @@ table.views-view-grid td.col-3 {
     background-image: url("../../images/arrows-777777-rtl.png");
 }
 
-
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+    left: 0;
+    top: 6.3em;
+    z-index: 99;
+    margin:0;
+    width:100%;
+}
+.sf-menu li.sfHover a,
+.sf-menu li:hover ul a,
+.sf-menu li.sfHover ul a {
+    color:#fff !important;
+}
 #header-region ul.sf-menu {
   float:right;
 }
