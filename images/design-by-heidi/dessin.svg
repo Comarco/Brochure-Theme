@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="2214.1685"
-     inkscape:cy="1646.3688"
+     inkscape:zoom="0.455"
+     inkscape:cx="-407.42118"
+     inkscape:cy="1310.6605"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -155,7 +155,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="page contact"
-     style="display:none">
+     style="display:inline">
     <image
        y="0"
        x="0"
@@ -168,7 +168,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="page gallery node"
-     style="display:inline">
+     style="display:none">
     <image
        y="0"
        x="0"
@@ -194,7 +194,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="page galleries"
-     style="display:none">
+     style="display:inline">
     <image
        y="0"
        x="0"
@@ -233,7 +233,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="page news node"
-     style="display:inline">
+     style="display:none">
     <image
        y="0"
        x="0"
@@ -259,7 +259,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="page front"
-     style="display:inline">
+     style="display:none">
     <image
        y="0"
        x="0"
@@ -340,12 +340,22 @@
        inkscape:export-filename="/home/marco/job/Brochure-Theme/images/design-by-heidi/fold.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
+    <rect
+       inkscape:export-ydpi="17.139999"
+       inkscape:export-xdpi="17.139999"
+       inkscape:export-filename="/home/marco/job/Brochure-Theme/favicon.png"
+       style="fill:#34c53c;fill-opacity:0.55395681;display:inline"
+       id="rect4877"
+       width="84"
+       height="84"
+       x="389.16406"
+       y="-917.07507" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="Mesures"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0086ff;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
@@ -685,5 +695,41 @@
          x="-757.48047"
          id="tspan4817"
          sodipodi:role="line">#fafbff big slideshow sidebar</tspan></text>
+    <rect
+       style="fill:#a37961;fill-opacity:1;stroke:none;display:inline"
+       id="rect4863"
+       width="67.882248"
+       height="43.455948"
+       x="-859.84186"
+       y="860.98279" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="-757.48047"
+       y="900.047"
+       id="text4865"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4867"
+         x="-757.48047"
+         y="900.047">#a37961 footer text</tspan></text>
+    <rect
+       y="939.42743"
+       x="-859.84186"
+       height="43.455948"
+       width="67.882248"
+       id="rect4869"
+       style="fill:#6e92cc;fill-opacity:1;stroke:none;display:inline" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4871"
+       y="978.49164"
+       x="-757.48047"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="978.49164"
+         x="-757.48047"
+         id="tspan4873"
+         sodipodi:role="line">#6e92cc  certains titres</tspan></text>
   </g>
 </svg>
