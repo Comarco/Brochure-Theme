@@ -1,0 +1,68 @@
+/* heidi's colors */
+
+body {
+  border-bottom: 15px solid #C5D7EF;
+  border-top: 15px solid #C5D7EF;
+}
+#breadcrumb,
+#user-menu {
+/*  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.09, #ECECCF),
+    color-stop(0.55, #EBEAC8),
+    color-stop(0.78, #E5E6BB)
+);
+  background-image: -moz-linear-gradient(
+    center bottom,
+    #ECECCF 9%,
+    #EBEAC8 55%,
+    #E5E6BB 78%
+);*/
+  background-color:#c5d7ef;
+}
+#container {background-color:#fff;}
+
+h2.title,
+h2.pane-title {color:#fdfdfd}
+body {
+  color:#585858;
+  border-top:15px solid #c5d7ef;
+  border-bottom:15px solid #c5d7ef;
+}
+h4 a:link,
+h5 a:link,
+h6 a:link {
+  color:#16294a;
+}
+
+/* Tabs color */
+ul.primary {
+border-bottom-color:#CCC;
+}
+
+ul.primary li a {
+  color:#16294a;
+  background-color:#c5d7ef;
+  margin-right:.08em;
+  border-color:#CCC;
+  padding:6px 10px 6px;
+  -moz-border-radius:4px 4px 0 0;
+  -webkit-border-radius:4px 4px 0 0;
+  -khtml-border-radius:4px 4px 0 0;
+  behavior:url(border-radius-ie8.htc);
+  -moz-box-shadow: 3px -2px 4px 0 #ddd;
+}
+
+.local-tasks ul.primary li a:hover {
+background-color:#fdfddf;
+border-color:#DDD;
+}
+
+.local-tasks ul.primary li.active a {
+/*background-color:#FFF;
+border-bottom-color:#FFF;*/
+}
+
+

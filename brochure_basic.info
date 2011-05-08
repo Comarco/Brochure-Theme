@@ -22,9 +22,6 @@
   ; Uncomment if using Gpanels. There are two: 960 Grids based and Fluid.
   ;stylesheets[all][] = css/core/gpanels-960-fixed.css
   ;stylesheets[all][] = css/core/gpanels-fluid.css
-	
-  ; Dark Theme CSS - uncomment to enable.
-  ;stylesheets[all][] = css/core/dark.css
 
   ; Starter CSS - comment this out if you dont need it, provides basic styles only.
   stylesheets[all][] = css/theme/starter.css
@@ -33,7 +30,14 @@
 
   ; Theme CSS - use this stylesheet to build your custom theme.
   stylesheets[all][] = css/theme/theme.css
-  
+
+  ; Heidi's light colors
+  stylesheets[all][] = css/theme/light-colors.css
+
+  ; Dark Theme CSS - uncomment to enable.
+  ;stylesheets[all][] = css/core/dark.css
+
+
 
 ;----------// IE Conditional Stylesheets
 
