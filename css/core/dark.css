@@ -441,7 +441,22 @@ border-color:#000;
 border-color:#777;
 }
 
-a:hover,div.error a:hover,div.error a:focus,div.status a:hover,div.status a:focus,div.help a:hover,div.help a:focus,div.warning a:hover,div.warning a:focus,tr.warning a:hover,tr.warning a:focus,table tr.warning.merge-up td,.hilited a.hilite,.views-display-default a:hover,.views-display-default a:active,.views-display-default a.active {
+a:hover,
+div.error a:hover,
+div.error a:focus,
+div.status a:hover,
+div.status a:focus,
+div.help a:hover,
+div.help a:focus,
+div.warning a:hover,
+div.warning a:focus,
+tr.warning a:hover,
+tr.warning a:focus,
+table tr.warning.merge-up td,
+.hilited a.hilite,
+.views-display-default a:hover,
+.views-display-default a:active,
+.views-display-default a.active {
 color:#FF0;
 }
 
@@ -450,12 +465,23 @@ color:#FF0;
 text-decoration:underline;
 }
 
-a:link,a:visited,.views-tabset a:visited,.views-tabset a:hover,.views-tabset a {
-color:#027AC6;
+a:link,
+a:visited,
+.views-tabset a:visited,
+.views-tabset a:hover,
+.views-tabset a {
+/*color:#027AC6; /* bleu */
+  color:#fffb8d;
+}
+
+a:hover {
+  text-decoration:underline;
 }
 
 h2.title,
-h2.pane-title {color:#fdfdfd}
+h2.pane-title {
+  color:#efefef;
+}
 
 /***************** Block superfish ***************************
 *************** Defaults & Primarylinks **********************/

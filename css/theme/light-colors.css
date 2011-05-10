@@ -65,4 +65,68 @@ border-color:#DDD;
 border-bottom-color:#FFF;*/
 }
 
+/***************** Block superfish ***************************
+*************** Defaults & Primarylinks **********************/
 
+.sf-menu.sf-style-white li {
+  border-right:1px dotted #d2d4e1;
+}
+.sf-menu.sf-style-white a {
+  color:#e44e35 !important;
+}
+.sf-menu.sf-style-white li.sfHover a {
+  color:#fff !important;
+}
+.sf-menu.sf-style-white li.sfHover li a {
+  color:#e44e35 !important;
+}
+.sf-menu.sf-style-white a:hover {
+  color:#fff !important;
+}
+.sf-menu.sf-style-white li ul a {
+  color:#e44e35 !important;
+}
+.sf-menu.sf-style-white li ul a:hover {
+  color:#fff !important;
+}
+.sf-menu.sf-style-white li.active-trail a {
+  color:#fff !important;
+}
+.sf-menu.sf-style-white li, .sf-navbar.sf-style-white {
+  background: transparent;
+}
+.sf-menu.sf-style-white li li {
+  background: none repeat scroll 0 0 #fefefe !important;
+}
+.sf-menu.sf-style-white li li li {
+  background: none repeat scroll 0 0 #fefefe !important;
+}
+.sf-menu.sf-style-white li:hover,
+.sf-menu.sf-style-white li.sfHover,
+.sf-menu.sf-style-white li.active,
+.sf-menu.sf-style-white li.active-trail,
+.sf-menu.sf-style-white a:focus,
+.sf-menu.sf-style-white a:hover,
+.sf-menu.sf-style-white a:active,
+.sf-navbar.sf-style-white li a:link {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.0, #cd4a36),
+    color-stop(0.100, #e44e35)
+);
+  background-image: -moz-linear-gradient(
+    center bottom,
+    #cd4a36 0%,
+    #e44e35 100%
+);
+  color:#fff;
+  background: none repeat scroll 0 0 #e44e35;
+}
+.sf-navbar.sf-style-white li ul {
+  background-color: #E9E9E9;
+}
+.sf-navbar.sf-style-white li ul li ul {
+  background-color: transparent;
+}

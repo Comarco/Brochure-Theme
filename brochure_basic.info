@@ -35,7 +35,7 @@
   stylesheets[all][] = css/theme/light-colors.css
 
   ; Dark Theme CSS - uncomment to enable.
-  ;stylesheets[all][] = css/core/dark.css
+  stylesheets[all][] = css/core/dark.css
 
 
 
