@@ -520,9 +520,21 @@ h1#page-title {
 /**********************************************************
  *                     Pager 
  **********************************************************/
+
+.item-list .pager {
+  text-align:left;
+}
+
 /* The first 2 classes provide the base pager styles. */
-ul.pager    {}
+ul.pager    {
+  margin:1em 0;
+}
 ul.pager li {}
+
+ul.pager li a {
+  text-decoration:none;
+  padding:.4em 1em;
+}
 
 /* Theme the various states of pager links. */
 ul.pager li a:link    {}
@@ -530,15 +542,23 @@ ul.pager li a:visited {}
 ul.pager li a:hover   {}
 
 /* Note: .pager-current is for the current page. */
-ul.pager li.pager-item     {}
+ul.pager li.pager-item     {
+  background-color:#ccc;
+}
 ul.pager li.first          {}
 ul.pager li.last           {}
-ul.pager li.pager-current  {}
+ul.pager li.pager-current {
+  background-color:#333;
+  color:#ddd;
+}
 ul.pager li.pager-first    {}
 ul.pager li.pager-previous {}
-ul.pager li.pager-next     {}
-ul.pager li.pager-last     {}
-
+ul.pager li.pager-next    a {
+  border:1px solid #ccc;
+}
+ul.pager li.pager-last    a {
+  border:1px solid #ccc;
+}
 
 /**********************************************************
  *               Footer, Footer Message
