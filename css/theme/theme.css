@@ -1467,3 +1467,24 @@ ul.secondary li a:hover,ul.secondary li a.active {
   padding:10px;
   background-color:#3a3a3a;
 }
+
+/**********************************************************
+*                  Views slideshow
+**********************************************************/
+    
+/* liens prev et next */
+    
+a.views_slideshow_previous:link,
+a.views_slideshow_next:link {
+  padding:.5em;  
+  font-size:1.3em;
+  background-color:#aaa;
+  display:inline-block;
+  margin:.2em 0;
+  color:#fff;  
+  text-decoration:none;
+}
+a.views_slideshow_previous {
+  margin-right:1em;
+}
+.views_slideshow_singleframe_controls {float:right}
